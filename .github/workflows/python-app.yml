@@ -28,7 +28,7 @@ jobs:
     -  name: Setup Python
        uses: actions/setup-python@v2
        with:
-          python-version: 'python-latest'
+          python-version: '3.8.10'
     # step3: install dependencies 
     -  name: Install dependencies
        run: 
